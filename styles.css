@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background: grey;
+  height: 700px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.screen {
+  display: block;
+  position: relative;
+  background: white;
+  margin: auto;
+  margin-top: 10px;
+  height: 100px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
